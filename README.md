@@ -1,2 +1,1 @@
-# Discord-Serever-Bot
-Free Website 1
+لا تلعب في ملفات css
