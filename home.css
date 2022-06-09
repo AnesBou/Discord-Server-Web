@@ -1,0 +1,652 @@
+.navigation-links-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.navigation-links-text {
+  color: #ffffff;
+  box-shadow: 1px 1px 30px 0px rgba(20, 20, 20, 0.46);
+  font-style: normal;
+  text-align: center;
+  transition: 0.5s;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.navigation-links-text:hover {
+  color: #14849e;
+}
+.navigation-links-text1 {
+  color: #ffffff;
+  box-shadow: 1px 1px 30px 0px rgba(20, 20, 20, 0.46);
+  font-style: normal;
+  text-align: center;
+  transition: 0.5s;
+  font-family: Tajawal;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text1:hover {
+  color: #14849e;
+}
+.navigation-links-text2 {
+  color: #ffffff;
+  box-shadow: 1px 1px 30px 0px rgba(20, 20, 20, 0.46);
+  font-style: normal;
+  text-align: center;
+  transition: 0.5s;
+  font-family: Tajawal;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text2:hover {
+  color: #14849e;
+}
+.navigation-links-text3 {
+  color: #ffffff;
+  box-shadow: 1px 1px 30px 0px rgba(20, 20, 20, 0.46);
+  font-style: normal;
+  text-align: center;
+  transition: 0.5s;
+  font-family: Tajawal;
+  font-weight: 500;
+  margin-left: var(--dl-space-space-twounits);
+}
+.navigation-links-text3:hover {
+  color: #14849e;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+  .navigation-links-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .navigation-links-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text1 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text2 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .navigation-links-text3 {
+    margin-left: 0;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover,contain;
+  justify-content: flex-start;
+  background-image: radial-gradient(circle at left top, rgb(16, 47, 53) 0.00%,rgba(36, 2, 8, 0.92) 100.00%),url('https://cdn.discordapp.com/attachments/973205035766923347/983495779689836544/vecteezy_abstract-purple-fluid-wave-background_.jpg');
+}
+.home-header {
+  width: 1081px;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-self: center;
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.home-container1 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.home-image {
+  height: 2rem;
+  border-radius: var(--dl-radius-radius-round);
+}
+.home-nav {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: var(--dl-space-space-twounits);
+  flex-direction: row;
+}
+.home-add {
+  top: 34px;
+  left: 764px;
+  color: #f1f1f1;
+  width: 108px;
+  position: absolute;
+  box-shadow: 1px 1px 30px 0px rgba(10, 10, 10, 0.64);
+  text-align: center;
+  transition: 0.3s;
+  font-family: Tajawal;
+  border-width: 0px;
+  border-radius: 30px;
+  background-color: #0c141a;
+}
+.home-add:hover {
+  top: 28px;
+}
+.home-login {
+  top: 34px;
+  color: #f1f1f1;
+  right: 12px;
+  width: 172px;
+  position: absolute;
+  align-self: center;
+  box-shadow: 1px 1px 30px 0px rgba(10, 10, 10, 0.64);
+  text-align: center;
+  transition: 0.3s;
+  font-family: Tajawal;
+  border-width: 0px;
+  border-radius: 30px;
+  background-color: #0c141a;
+}
+.home-login:hover {
+  top: 28px;
+}
+.home-burger-menu {
+  display: none;
+}
+.home-icon {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  display: none;
+}
+.home-mobile-menu {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+  display: none;
+  padding: 32px;
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.home-nav1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home-container2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: space-between;
+}
+.home-image1 {
+  height: 2rem;
+}
+.home-close-mobile-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home-icon02 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-icon04 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon06 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+  margin-right: var(--dl-space-space-twounits);
+}
+.home-icon08 {
+  width: var(--dl-size-size-xsmall);
+  height: var(--dl-size-size-xsmall);
+}
+.home-container3 {
+  height: 546px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-image2 {
+  width: 91px;
+  height: 90px;
+  align-self: center;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
+  border-radius: 30px;
+}
+.home-text {
+  color: #f7f2f2;
+  font-size: 30px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-twounits);
+  text-align: center;
+  font-family: Tajawal;
+  font-weight: 700;
+}
+.home-text01 {
+  font-style: normal;
+  font-family: Tajawal;
+  font-weight: 700;
+}
+.home-text03 {
+  font-style: normal;
+  font-family: Tajawal;
+  font-weight: 700;
+}
+.home-text04 {
+  color: #c7c6c6;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  text-align: center;
+  font-family: Tajawal;
+  font-weight: 700;
+}
+.home-text05 {
+  font-style: normal;
+  font-family: Tajawal;
+  font-weight: 700;
+}
+.home-text07 {
+  font-style: normal;
+  font-family: Tajawal;
+  font-weight: 700;
+}
+.home-button {
+  top: 421px;
+  left: 0px;
+  color: #fbfafa;
+  right: 220px;
+  width: 205px;
+  height: 41px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  box-shadow: 1px 1px 30px 0px rgba(20, 20, 20, 0.67);
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Tajawal;
+  font-weight: 500;
+  padding-top: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+  background-color: #263b4e;
+}
+.home-button:hover {
+  top: 415px;
+}
+.home-button1 {
+  top: 421px;
+  left: 250px;
+  color: #fbfafa;
+  right: 0px;
+  width: 196px;
+  height: 41px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  box-shadow: 1px 1px 30px 0px rgba(20, 20, 20, 0.67);
+  font-style: normal;
+  text-align: center;
+  transition: 0.3s;
+  font-family: Tajawal;
+  font-weight: 500;
+  padding-top: 10px;
+  border-width: 0px;
+  border-radius: 30px;
+  background-color: #263b4e;
+}
+.home-button1:hover {
+  top: 415px;
+}
+.home-text08 {
+  color: #61d8a9;
+  font-size: 25px;
+  font-style: normal;
+  margin-top: 120px;
+  text-align: center;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.home-text09 {
+  font-style: normal;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.home-text11 {
+  font-style: normal;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.home-fyouters {
+  width: 1259px;
+  height: 714px;
+  display: flex;
+  position: relative;
+  align-self: center;
+  margin-top: 650px;
+  align-items: center;
+  margin-bottom: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.home-text12 {
+  top: 20px;
+  left: 564px;
+  color: #f9f9f9;
+  position: absolute;
+  font-size: 35px;
+  align-self: center;
+  font-style: normal;
+  font-family: Tajawal;
+  font-weight: 700;
+}
+.home-text14 {
+  color: #c5c0c0;
+  font-size: 30px;
+  font-style: normal;
+  margin-top: 70px;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.home-codes-and-files {
+  top: 194px;
+  left: var(--dl-space-space-sixunits);
+  width: 262px;
+  bottom: var(--dl-space-space-threeunits);
+  height: 380px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 1px 1px 50px 0px #000000;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: radial-gradient(circle at left top, rgb(16, 47, 53) 0.00%,rgba(36, 2, 8, 0.92) 100.00%),url('https://cdn.discordapp.com/attachments/973205035766923347/983495779689836544/vecteezy_abstract-purple-fluid-wave-background_.jpg');
+  background-position: top left,bottom right;
+}
+.home-codes-and-files:hover {
+  top: 180px;
+}
+.home-icon10 {
+  top: -30px;
+  fill: #f4f9f9;
+  left: 0px;
+  right: 0px;
+  width: 97px;
+  height: 85px;
+  margin: auto;
+  position: absolute;
+  transform: rotate(-2deg);
+}
+.home-icon11 {
+  top: 0px;
+  left: 12px;
+  position: absolute;
+}
+.home-text15 {
+  top: var(--dl-space-space-fiveunits);
+  left: 0px;
+  color: #f7f2f2;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.home-text16 {
+  top: 169px;
+  left: 0px;
+  color: #f7f2f2;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: center;
+  text-align: center;
+  font-family: Tajawal;
+}
+.home-support {
+  top: 194px;
+  left: 0px;
+  right: 0px;
+  width: 262px;
+  bottom: var(--dl-space-space-threeunits);
+  height: 380px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 1px 1px 50px 0px #000000;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: radial-gradient(circle at left top, rgb(16, 47, 53) 0.00%,rgba(36, 2, 8, 0.92) 100.00%),url('https://cdn.discordapp.com/attachments/973205035766923347/983495779689836544/vecteezy_abstract-purple-fluid-wave-background_.jpg');
+  background-position: top left,bottom right;
+}
+.home-support:hover {
+  top: 180px;
+}
+.home-icon12 {
+  top: -42px;
+  fill: #f4f9f9;
+  left: 0px;
+  right: 0px;
+  width: 97px;
+  height: 109px;
+  margin: auto;
+  position: absolute;
+  transform: rotate(-10deg);
+}
+.home-text17 {
+  top: var(--dl-space-space-fiveunits);
+  left: 0px;
+  color: #f7f2f2;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.home-text18 {
+  top: 169px;
+  left: var(--dl-space-space-unit);
+  color: #f7f2f2;
+  right: var(--dl-space-space-unit);
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: center;
+  text-align: center;
+  font-family: Tajawal;
+}
+.home-make-bots {
+  top: 194px;
+  left: 900px;
+  width: 262px;
+  bottom: var(--dl-space-space-threeunits);
+  height: 380px;
+  margin: auto;
+  display: flex;
+  position: absolute;
+  box-shadow: 1px 1px 50px 0px #000000;
+  transition: 0.3s;
+  align-items: center;
+  border-radius: 30px;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: radial-gradient(circle at left top, rgb(16, 47, 53) 0.00%,rgba(36, 2, 8, 0.92) 100.00%),url('https://cdn.discordapp.com/attachments/973205035766923347/983495779689836544/vecteezy_abstract-purple-fluid-wave-background_.jpg');
+  background-position: top left,bottom right;
+}
+.home-make-bots:hover {
+  top: 180px;
+}
+.home-icon14 {
+  top: -40px;
+  fill: #f4f9f9;
+  left: 0px;
+  right: 0px;
+  width: 83px;
+  height: 99px;
+  margin: auto;
+  position: absolute;
+  transform: rotate(-5deg);
+}
+.home-text19 {
+  top: var(--dl-space-space-fiveunits);
+  left: 0px;
+  color: #f7f2f2;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  font-size: 30px;
+  align-self: center;
+  font-style: normal;
+  text-align: center;
+  font-family: Tajawal;
+  font-weight: 500;
+}
+.home-text20 {
+  top: 169px;
+  left: var(--dl-space-space-unit);
+  color: #f7f2f2;
+  right: var(--dl-space-space-unit);
+  margin: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: center;
+  text-align: center;
+  font-family: Tajawal;
+}
+.home-footer {
+  width: 100%;
+  display: flex;
+  position: relative;
+  max-width: var(--dl-size-size-maxwidth);
+  align-items: center;
+  padding-top: var(--dl-space-space-twounits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  padding-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.home-image3 {
+  height: 2rem;
+  object-fit: cover;
+  border-radius: 30px;
+}
+.home-text21 {
+  top: 39px;
+  left: 0px;
+  color: #f9f7f7;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  align-self: center;
+  text-align: center;
+}
+.home-image4 {
+  top: 699px;
+  left: 0px;
+  right: 0px;
+  width: 676px;
+  height: 502px;
+  margin: auto;
+  position: absolute;
+  transform: rotate(-10deg);
+  box-shadow: 2px 2px 50px 0px #080808;
+  object-fit: cover;
+  transition: 0.3s;
+  border-radius: 30px;
+}
+.home-image4:hover {
+  top: 670px;
+  left: var(--dl-space-space-oneandhalfunits);
+  right: 0px;
+}
+@media(max-width: 991px) {
+  .home-icon {
+    display: flex;
+  }
+}
+@media(max-width: 767px) {
+  .home-header {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-nav {
+    display: none;
+  }
+  .home-burger-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .home-footer {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .home-text21 {
+    text-align: center;
+    margin-left: var(--dl-space-space-unit);
+    margin-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .home-header {
+    padding: var(--dl-space-space-unit);
+  }
+  .home-mobile-menu {
+    padding: 16px;
+  }
+  .home-footer {
+    padding: var(--dl-space-space-unit);
+    flex-direction: column;
+  }
+  .home-image3 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .home-text21 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
+
+
